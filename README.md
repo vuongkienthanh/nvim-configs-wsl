@@ -1,6 +1,7 @@
 # IDE neovim config on WSL
 
-## on windows side
+## Installation
+### on windows side
 
 use [`win32yank`](https://github.com/equalsraf/win32yank) instead of clip.exe ( doesn't support utf8)
 
@@ -8,7 +9,7 @@ use [`win32yank`](https://github.com/equalsraf/win32yank) instead of clip.exe ( 
 choco install win32yank
 ```
 
-## on wsl side
+### on wsl side
 ```sh
 sudo add-apt-repository ppa:neovim-ppa/unstable
 sudo apt update
@@ -19,6 +20,11 @@ sudo apt install
     python3-full python3-venv python-pynvim\
 
 git clone --recurse-submodules git@github.com:vuongkienthanh/nvim-configs-wsl.git ~/.config/nvim
+```
+
+## Update
+```sh
+git pull --recurse-submodules
 ```
 
 # More packages for specific languages
