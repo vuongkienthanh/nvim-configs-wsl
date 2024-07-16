@@ -2,3 +2,4 @@
 	path = lua
 	url = git@github.com:vuongkienthanh/nvim-configs.git
 	branch = main
+	update = merge
