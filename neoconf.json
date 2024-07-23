@@ -1,0 +1,10 @@
+// This is global config for neovim
+{
+    "lspconfig": {
+        "rust_analyzer" : {
+            "rust_analyzer.cargo.features" : "all",
+            "rust_analyzer.check.command" : "clippy"
+        }
+    }
+}
+
