@@ -26,19 +26,3 @@ git clone --recurse-submodules git@github.com:vuongkienthanh/nvim-configs-wsl.gi
 ```sh
 git pull --recurse-submodules
 ```
-
-# More packages for specific languages
-### Python
-```sh
-sudo apt install python3-dev python3-doc
-```
-
-### Nodejs
-```sh
-sudo apt install nodejs npm
-```
-
-### Rust
-```sh
-sudo apt install rust-all rust-doc rust-src
-```
